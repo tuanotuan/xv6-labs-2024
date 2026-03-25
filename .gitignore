@@ -4,3 +4,7 @@
 *.sym
 fs.img
 _*
+.vscode/
+*.d
+*.o
+kernel/vectors.S
