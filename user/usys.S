@@ -100,6 +100,11 @@ sleep:
  li a7, SYS_sleep
  ecall
  ret
+.global trace
+trace:
+ li a7, SYS_trace
+ ecall
+ ret
 .global uptime
 uptime:
  li a7, SYS_uptime
