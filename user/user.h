@@ -2,6 +2,7 @@ typedef unsigned int uint;
 
 struct stat;
 struct sysinfo;
+struct ptreeinfo;
 
 // system calls
 int fork(void);
@@ -28,6 +29,7 @@ int trace(int);
 int uptime(void);
 int hello(void);
 int sysinfo(struct sysinfo*);
+int ptree(struct ptreeinfo*, int);
 
 // ulib.c
 int stat(const char*, struct stat*);

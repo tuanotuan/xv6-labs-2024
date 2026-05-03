@@ -115,3 +115,8 @@ sysinfo:
  li a7, SYS_sysinfo
  ecall
  ret
+.global ptree
+ptree:
+ li a7, SYS_ptree
+ ecall
+ ret

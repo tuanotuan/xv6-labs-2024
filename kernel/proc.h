@@ -106,3 +106,6 @@ struct proc {
   uint mask;                   // Trace mask for syscall tracing
   char name[16];               // Process name (debugging)
 };
+
+// The process table (defined in proc.c)
+extern struct proc proc[];
