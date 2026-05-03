@@ -110,3 +110,8 @@ uptime:
  li a7, SYS_uptime
  ecall
  ret
+.global sysinfo
+sysinfo:
+ li a7, SYS_sysinfo
+ ecall
+ ret
